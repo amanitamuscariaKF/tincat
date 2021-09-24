@@ -1,0 +1,176 @@
+/* HTML-Elemente */
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3.5rem;
+  color: #fff;
+  text-align: left;
+}
+
+.cta-heading {
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 3% 15% 10%;
+}
+
+#features .container-fluid, #testimonials .container-fluid, #pricing .container-fluid, #cta .container-fluid, #footer .container-fluid {
+  padding-bottom: 0%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Title Section */
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.btn-dark:hover {
+  background-color: #484848;
+}
+
+/* Navigation Bar   */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 100;
+}
+
+/* Title Image */
+.titleimage {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 22%;
+}
+
+/* Features */
+#features {
+  /* Im HTML-Flow, aber positionierbar */
+  position: relative;
+  /* Nicht nötig, da #features im HTML nach #title kommt */
+  /* z-index: 1; */
+  /* Alternativ-Lösung, um Features über Title zu bringen (Bild) */
+  /* position: relative;
+    width: 100%;
+    top: -150px;
+    margin-bottom: -100px; */
+}
+
+/* Columns */
+.col-features {
+  padding: 0 3.5rem;
+  margin: 3.5rem 0;
+}
+
+/* Icons */
+.fas-description {
+  color: #ef8172;
+  /* font-size: 50px; nicht nötig, da FA-Klasse die Größe bestimmt */
+  padding: 10px 0;
+}
+
+.fas-description:hover {
+  color: #ff4c68;
+}
+
+/* Features Text */
+/* Testimonial Section */
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  height: 350px;
+}
+
+/* Pricing */
+.card {
+  height: 25rem;
+}
+
+#pricing {
+  padding: 3% 15%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+/* Footer */
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* Media Queries */
+@media (max-width: 975px) {
+  .titleimage {
+    width: 60%;
+    transform: rotate(0deg);
+    position: static;
+    left: 15%;
+  }
+
+  .container-fluid {
+    padding: 7% 15%;
+  }
+
+  .big-heading {
+    text-align: center;
+  }
+}
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
